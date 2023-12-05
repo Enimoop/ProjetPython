@@ -75,7 +75,7 @@ def etape9(domaine,liste_url):
             yes_list.append(url)
         else:
             no_list.append(url)
-    return {'domain_url': yes_list,'not_domain_url': no_list}
+    return yes_list, no_list
 
 
 
