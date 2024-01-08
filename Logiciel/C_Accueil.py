@@ -1,13 +1,7 @@
-# C_Accueil.py
-import csv
-from urllib.parse import urlparse
+
 
 from C_Analyse import C_Analyse
-from Logiciel.VueAnalyse import VueAnalyse
-import tkinter as tk
-from tkinter import ttk
-import requests
-from bs4 import BeautifulSoup
+
 
 class C_Accueil:
     def __init__(self):

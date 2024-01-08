@@ -1,4 +1,3 @@
-# C_Analyse.py
 from urllib.parse import urljoin, urlparse
 import csv
 import requests
@@ -72,8 +71,8 @@ class C_Analyse:
                 no_list.append(url)
         return yes_list, no_list
 
-    @staticmethod
-    def etape10(url):
+
+    def etape10(self, url):
         try:
             response = requests.get(url)
 

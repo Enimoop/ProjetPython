@@ -1,4 +1,3 @@
-# VueAccueil.py
 import tkinter as tk
 from threading import Thread
 from tkinter import ttk, messagebox

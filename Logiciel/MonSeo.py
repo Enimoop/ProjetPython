@@ -1,5 +1,3 @@
-# MonSeo.py
-import tkinter as tk
 from VueAccueil import VueAccueil
 
 class MonSeo:
