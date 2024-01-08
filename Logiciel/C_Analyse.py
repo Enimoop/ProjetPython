@@ -75,7 +75,6 @@ class C_Analyse:
     @staticmethod
     def etape10(url):
         try:
-            print(f"Tentative de requête HTTP pour l'URL : {url}")
             response = requests.get(url)
 
             if response.status_code == 200:

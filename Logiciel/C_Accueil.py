@@ -19,15 +19,12 @@ class C_Accueil:
 
         urls_principales = self.analyseur.etape6(self.analyseur.etape10(url), 'a', 'href',domaine)
 
-        print("Liens récupérés :", urls_principales)
 
         urls_info = []
 
         for url_page in urls_principales:
             if not url_page.startswith(('http:', 'https:')):
                 continue
-
-            print("Analyse de la page :", url_page)
 
             html_content = self.analyseur.etape10(url_page)
 
